@@ -16,7 +16,6 @@ public class UserController {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("userRegister");
 		return modelAndView;
-		
 	}
 	
 	@RequestMapping(value="registerUser" , method = RequestMethod.POST)
@@ -26,6 +25,4 @@ public class UserController {
 		modelAndView.setViewName("UserList");
 		return modelAndView;
 	}
-	
-	
 }

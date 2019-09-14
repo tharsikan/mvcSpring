@@ -16,8 +16,7 @@ heool
 		for(String d : ddd ){
 			out.println(d);
 		}
-		
-		
+
 %>
 
 </body>
